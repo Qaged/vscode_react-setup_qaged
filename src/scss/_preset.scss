@@ -1,0 +1,48 @@
+$ciPrime: #4851ff;
+$ciSecond: #0c1016;
+
+$ciBlue: #37E2D5;
+$ciRed: #ff365b;
+$ciGreen: #46fc70;
+$ciYellow: #FBCB0A;
+$ciPurple: #C70A80;
+
+$ciWhite: #ffffff;
+$ciBlack: #000000;
+
+$roboto: 'Roboto';
+
+@font-face {
+	font-family: $roboto;
+	src: url('https://assets.codepen.io/907368/Roboto-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: $roboto;
+	src: url('https://assets.codepen.io/907368/Roboto-Regular.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: $roboto;
+	src: url('https://assets.codepen.io/907368/Roboto-Light.ttf');
+	font-weight: 300;
+}
+
+body,
+html {
+	width: 100%;
+	min-height: 100vh;
+	background-color: $ciSecond;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	color: $ciWhite;
+	font-family: $roboto;
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+}
